@@ -4,7 +4,7 @@ import { Server } from 'socket.io';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import { createDeck, shuffleDeck, dealCards } from '../src/utils/cards.js';
+import { createDeck, shuffleDeck, dealCards } from '../src/utils/cards.ts';
 
 // Models
 import User from './models/User.js';
